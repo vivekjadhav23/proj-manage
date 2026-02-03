@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #1a1d23;
+}
+
+/* Modern Card Hover */
+.task-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
+
+.kanban-column {
+  background-color: #ebedef;
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 80vh;
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.1) !important;
+}
+
+/* Removes the ugly arrow from Bootstrap dropdowns */
+.shadow-none:focus {
+  box-shadow: none !important;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+/* Custom variables for theme consistency */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #121212;
+  --bs-tertiary-bg: #1e1e1e;
+}
+
+[data-bs-theme="dark"] .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #1e1e1e;
+  border: 1px solid #333 !important;
+}
+
+[data-bs-theme="dark"] .kanban-column {
+  background-color: #1a1a1a;
+}
+
+[data-bs-theme="dark"] .text-dark {
+  color: #f8f9fa !important;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  -webkit-background-clip: text; /* Keep this for Chrome/Safari */
+  background-clip: text;         /* Add this for standard compatibility */
+  -webkit-text-fill-color: transparent;
+}
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-left: -12px; /* Overlap effect */
+}
+
+.hover-shadow:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.12) !important;
+}
+
+.grayscale { filter: grayscale(100%); transition: 0.3s; }
+.grayscale:hover { filter: grayscale(0%); }
