@@ -1,22 +1,53 @@
-🚀 TaskFlow | Enterprise Project Management
-TaskFlow is a high-performance, full-stack collaborative platform designed for modern engineering teams. It streamlines project roadmaps through systematic Kanban infrastructure and real-time performance analytics.
+# 🚀 TaskFlow — Enterprise Project Management Platform
 
-💎 Core Features
-Engineering Kanban: Dynamic board interface with drag-and-drop status updates and task management.
+**TaskFlow** is a high-performance, full-stack collaborative project management platform built for modern engineering teams.  
+It streamlines project planning and execution through a systematic **Kanban workflow**, real-time activity tracking, and enterprise-grade security.
 
-Bento-Grid Dashboard: A high-end command center providing at-a-glance system health and workspace metrics.
+Designed for teams shipping the future in **2026**. ⚡
 
-Real-time Activity Stream: A live system log that tracks task updates and team interactions.
+---
 
-Enterprise Security: JWT-based session management with secure authentication protocols.
+## ✨ Key Features
 
-Native Dark Mode: Adaptive UI that responds to user theme preferences.
+### 🧩 Engineering Kanban
+- Dynamic Kanban boards
+- Drag-and-drop task status updates
+- Intuitive task creation and management
 
-🛠️ Tech Stack
-Frontend: React.js (Vite), React Bootstrap, Bootstrap Icons.
+### 📊 Bento-Grid Dashboard
+- High-end command center UI
+- At-a-glance workspace metrics
+- System health and productivity overview
 
-Backend: Node.js, Express, MongoDB (Mongoose).
+### 🔔 Real-time Activity Stream
+- Live system logs for task updates
+- Tracks team interactions and changes
+- Improves transparency and collaboration
 
-Security: JSON Web Tokens (JWT).
+### 🔐 Enterprise Security
+- Secure authentication using **JWT**
+- Token-based session management
+- Protected routes and APIs
 
-TaskFlow — Built for engineering teams shipping the future in 2026.
+### 🌙 Native Dark Mode
+- Adaptive UI based on user theme preferences
+- Seamless light/dark experience
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js** (Vite)
+- **React Bootstrap**
+- **Bootstrap Icons**
+- Modern responsive UI
+
+### Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose ODM**
+
+### Security
+- **JSON Web Tokens (JWT)**
